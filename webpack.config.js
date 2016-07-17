@@ -18,11 +18,6 @@ module.exports = {
     new webpack.NoErrorsPlugin()
   ],
   module: {
-    loaders: [{
-      test: /\.js$/,
-      loaders: ['babel'],
-      exclude: /node_modules/,
-      include: __dirname
-    }]
+    loaders: ['react-hot', 'babel?presets[]=es2015,presets[]=stage-0,presets[]=react']
   }
 };
