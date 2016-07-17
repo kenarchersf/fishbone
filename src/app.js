@@ -1,5 +1,5 @@
-//import React, {Component} from 'react';
-//import {render} from 'react-dom';
+import React, {Component} from 'react';
+import ReactDOM from 'react-dom';
 
 //class App extends Component {
 //  render() {
@@ -14,8 +14,8 @@
 //  document.getElementById('app')
 //);
 
-var React = require('react');
-var ReactDOM = require('react-dom');
+//var React = require('react');
+//var ReactDOM = require('react-dom');
 
 ReactDOM.render(
   <h1>Hello, world!</h1>,
