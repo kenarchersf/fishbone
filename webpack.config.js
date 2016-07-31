@@ -24,5 +24,8 @@ module.exports = {
       loaders: ['react-hot', 'babel?presets[]=es2015,presets[]=stage-0,presets[]=react'],
       include: __dirname,
     }]
+  },
+  resolve: {
+    extensions: ["", ".js", ".jsx", ".es6"] 
   }
 };
