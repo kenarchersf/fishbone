@@ -1,8 +1,7 @@
 import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
-import d3 from 'd3';
 
- const Line = React.createClass({
+const Line = React.createClass({
 
   propTypes: {
     path:         React.PropTypes.string.isRequired,
@@ -44,7 +43,7 @@ const DataSeries = React.createClass({
     return {
       data:               {},
       interpolationType:  'cardinal',
-      colors:             d3.scaleOrdinal(d3.schemeCategory10),
+      colors:             d3.scale.category10(),  // V3 syntactic
       xScale:             React.PropTypes.func,
       yScale:             React.PropTypes.func
     };
@@ -136,10 +135,9 @@ let data = {
 
 ReactDOM.render(
     <LineChart
-    data={data}
-    width={600}
-    height={300}
+      data={data}
+      width={600}
+      height={300}
     />,
-//  <p>Hello World</p>,
   document.getElementById('app')
 );
