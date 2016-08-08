@@ -21,8 +21,8 @@ const LineChart = React.createClass({
     let { width, height, data} = this.props;
 
     let xScale = d3.scale.linear()
-      .domain(0,50)
-      .rangePoints([width, 0]);
+      .domain([0,50])
+      .range([width, 0]);
 
     let yScale = d3.scale.linear()
       .domain([0,50])
