@@ -30,25 +30,6 @@ const DataSeries = React.createClass({
       .x((d) => { return xScale(d.x); })
       .y((d) => { return yScale(d.y); });
     
-    //  let lines = data.branches.map((series, id) => {
-    //   return (
-    //     <g>
-    //     <Line
-    //       path={line(series.points)}
-    //       seriesName={series.name}
-    //       id={series.branch}
-    //       //stroke={colors(id)}
-    //       stroke='steelblue'
-    //       key={id}
-    //     />
-    //     <TextPath
-    //       xlinkhref={"#"+series.branch}
-    //       branchtext={series.name}
-    //     />
-    //   </g>
-    //   );
-    // });
-    
      function rows (data) {
        var branches = [];
        branches.push(data);
