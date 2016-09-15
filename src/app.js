@@ -52,35 +52,6 @@ const LineChart = React.createClass({
 
 });
 
-
-
-// let data = { 
-//    branches: [
-//    { branch: 1, name: "", points: [ { x: 0, y: 25 }, { x: 50, y: 25 }] },
-//    { branch: 2, name: "Second cause", points: [ { x: 35, y: 20 }, { x: 40, y: 25 }] },
-//    { branch: 3, name: "Third cause", points: [ { x: 35, y: 30 }, { x: 40, y: 25 }] }
-//   ]
-// };
-
-// let data = {branch: 1, name: "", points: [{ x: 0, y: 25 }, { x: 50, y: 25 }], children: [ 
-//    { branch: 2, name: "Second cause", points: [{ x: 35, y: 20 }, { x: 40, y: 25 }], children: [] },
-//    { branch: 3, name: "Third cause", points: [{ x: 35, y: 30 }, { x: 40, y: 25 }], children: [] }]
-// };
-
-// let data = {branch: 1, name: "", points: [{ x: 0, y: 25 }, { x: 55, y: 25 }], children: [ 
-//    { branch: 2, name: "Second cause", points: [{ x: 40, y: 15 }, { x: 50, y: 25 }], children: [
-//      { branch: 3, name: "Third cause", points: [{ x: 35, y: 20 }, { x: 45, y: 20 }], children: [] }
-//    ] },
-//    { branch: 4, name: "Fourth cause", points: [{ x: 40, y: 35 }, { x: 50, y: 25 }], children: [] }]
-// };
-
-// Sample Data
-
-// let data = {branch: 1, name: "", points: [], children: [ 
-//    { branch: 2, name: "Second cause", points: [], children: [] },
-//    { branch: 3, name: "Third cause", points: [], children: [] }]
-// };
-
 // Sample Data
 
 let data = {branch: 1, name: "", points: [], children: [ 
